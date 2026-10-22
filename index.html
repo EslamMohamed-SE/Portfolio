@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eslam Mohamed | Software Engineering Portfolio</title>
+  <meta name="description" content="Portfolio of Eslam Mohamed, Software Engineering student at Suez Canal University.">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#home">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav-in">
+      <a href="#home" class="logo">Eslam<span>.dev</span></a>
+      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><i></i><i></i></button>
+      <nav class="links" id="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#assignments">Assignments</a>
+        <a href="#contact" class="btn small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap">
+        <p class="kicker">Suez Canal University, Faculty of Computers and Information</p>
+        <h1>Eslam Mohamed</h1>
+        <p class="role">Software Engineering Student | Aspiring Software Developer</p>
+        <p class="lead">Passionate about building creative digital solutions, from clean interfaces to code that works.</p>
+        <div class="cta">
+          <a href="#projects" class="btn">View my projects</a>
+          <a href="#contact" class="btn ghost">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap split">
+        <div class="reveal">
+          <h2>About me</h2>
+        </div>
+        <div class="reveal">
+          <p>I'm a Software Engineering student at the Faculty of Computers and Information, Suez Canal University. I enjoy turning ideas into working products and I'm building my skills one project at a time.</p>
+          <p>This portfolio collects my coursework, including the assignments set by Dr. Fatma, alongside the HTML, CSS and JavaScript projects I build for practice. I'm looking for opportunities to learn, collaborate and grow as a developer.</p>
+          <ul class="facts">
+            <li><b>Major</b>Software Engineering</li>
+            <li><b>University</b>Suez Canal University</li>
+            <li><b>Focus</b>Web development</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="wrap">
+        <h2 class="reveal">Skills</h2>
+        <div class="skill-grid">
+          <article class="skill reveal">
+            <h3>Front-end</h3>
+            <ul><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive design</li></ul>
+          </article>
+          <article class="skill reveal">
+            <h3>Tools</h3>
+            <ul><li>Git</li><li>GitHub</li><li>Visual Studio Code</li></ul>
+          </article>
+          <article class="skill reveal">
+            <h3>Foundations</h3>
+            <ul><li>Problem solving</li><li>Data structures</li><li>Object-oriented programming</li></ul>
+          </article>
+        </div>
+        <p class="note reveal">Edit these lists directly in <code>index.html</code>.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2 class="reveal">Projects</h2>
+        <p class="sub reveal">Personal practice work in HTML, CSS and JavaScript.</p>
+        <div class="grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <section id="assignments" class="section alt">
+      <div class="wrap">
+        <h2 class="reveal">Dr. Fatma's assignments</h2>
+        <p class="sub reveal">Coursework submitted for Dr. Fatma's course.</p>
+        <div class="grid" id="assignments-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap contact reveal">
+        <h2>Let's talk</h2>
+        <p>Have a question, an opportunity or feedback on my work? Send me a message.</p>
+        <div class="cta">
+          <a class="btn" id="email-link" href="mailto:your.eslam.mohamed31227@gmail.com">Email me</a>
+          <a class="btn ghost" id="github-link" href="https://github.com/EslamMohamed-SE" target="_blank" rel="noopener">GitHub profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap foot-in">
+      <p>&copy; <span id="year"></span> Eslam Mohamed. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
