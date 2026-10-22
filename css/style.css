@@ -43,7 +43,19 @@ code{background:var(--card);padding:.1em .4em;border-radius:4px;font-size:.9em}
 .hero{min-height:100svh;display:flex;align-items:center;position:relative;overflow:hidden;padding:calc(var(--nav-h) + 2rem) 0 4rem}
 .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(520px circle at var(--mx,70%) var(--my,30%),rgba(110,100,255,.2),transparent 70%);pointer-events:none}
 .hero .wrap{position:relative}
-.hero h1{font:800 clamp(2.2rem, 5.5vw, 4.2rem)/1.1 var(--head);letter-spacing:-.04em;margin:.4rem 0 1.2rem;background:linear-gradient(180deg,#fff 30%,#a9a9ff);-webkit-background-clip:text;background-clip:text;color:transparent;white-space:nowrap;}
+.hero h1 {
+  font-size: min(8vw, 3.8rem) !important;
+  line-height: 1.1 !important;
+  font-weight: 800;
+  font-family: var(--head);
+  letter-spacing: -0.04em;
+  margin: 0.4rem 0 1.2rem;
+  background: linear-gradient(180deg, #fff 30%, #a9a9ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  white-space: nowrap !important;
+}
 .role{font:500 clamp(1.1rem,2.6vw,1.5rem) var(--head);margin:0 0 .6rem;color:#c9c9ff}
 .lead{max-width:46ch;color:var(--muted);margin:0 0 2rem}
 .cta{display:flex;flex-wrap:wrap;gap:1rem}
